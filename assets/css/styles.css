@@ -1,0 +1,20 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-shadow: 0px 0px 1px black;
+}
+
+.main-box{
+    background-color: cadetblue;
+    padding: 335px 600px 335px 600px;
+}
+
+.title{
+    margin-bottom: 50px;
+}
+
+.formulario{
+    background-color: brown;
+    text-align: center;
+    padding: 10px 10px 50px 10px;
+}
