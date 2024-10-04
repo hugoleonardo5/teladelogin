@@ -1,21 +1,52 @@
 * {
     padding: 0px;
     margin: 0px;
-    box-shadow: 0px 0px 1px black;
+    box-shadow: 0px 0px 2px rgb(255, 255, 255);
 }
 
 .main-box {
-    background-color: rgb(25, 50, 50);
+    background-color: rgb(100, 100, 100);
     padding: 335px 600px 335px 600px;
 }
 
 .title {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
+    color: white;
 }
 
 .formulario {
-    background-color: rgb(100, 100, 125);
+    background: linear-gradient(rgb(25, 25, 50), rgb(50, 50, 75));
     text-align: center;
-    padding: 10px 10px 50px 10px;
+    padding: 10px;
     border-radius: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+.user-info {
+    text-align: left;
+}
+
+.user-info input {
+    height: 20px;
+    width: 200px;
+    background-color: transparent;
+}
+
+.user-info ::placeholder {
+    color: rgb(200, 200, 200);
+    font-size: 18px;
+}
+
+.submit-button {
+    background-color: transparent;
+    color:white;
+    width: 250px;
+    height: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.email-box {
+    margin-bottom: 10px;
 }
